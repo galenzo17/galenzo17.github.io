@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funciones Arrow</title>
+</head>
+<body>
+    <h1 id="saludo"></h1>
+    <h1 id="suma">Resultado de la suma es: </h1>
+
+
+    <script>
+    var saludoId = document.getElementById('saludo');
+
+    // function saludar(nombre){
+    //     return 'Hola '+nombre;
+    // }
+
+    var saludar = nombre => 'Hola '+nombre;
+
+    saludoId.innerHTML = saludar('Ignacio');
+
+    var sumaId = document.getElementById('suma');
+
+    var sumar = (num1,num2) => {
+        var num3 = 10;
+        return num1+num2+num3;
+    }
+
+    sumaId.innerHTML += sumar(20,20);
+
+
+
+    </script>
+</body>
+</html>

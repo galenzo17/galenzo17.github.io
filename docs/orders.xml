@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<orders>
+<order>
+	<id>9201</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/5027">5027</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/5026">5026</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12562">12562</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1698">1698</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/98">98</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/3">3</current_state>
+	<module>webpay</module>
+	<invoice_number>7901</invoice_number>
+	<invoice_date>2020-07-24 18:00:00</invoice_date>
+	<delivery_number>7814</delivery_number>
+	<delivery_date>2020-07-24 18:00:00</delivery_date>
+	<valid>1</valid>
+	<date_add>2020-07-24 18:00:00</date_add>
+	<date_upd>2020-07-24 18:00:01</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>c2e846e69a2fa8a9d634281bea4a0a56</secure_key>
+	<payment>Webpay Plus</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>181980.000000</total_paid>
+	<total_paid_tax_incl>181980.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>154840.000000</total_paid_tax_excl>
+	<total_paid_real>181980.000000</total_paid_real>
+	<total_products>142840.000000</total_products>
+	<total_products_wt>169980.000000</total_products_wt>
+	<total_shipping>12000.000000</total_shipping>
+	<total_shipping_tax_incl>12000.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>12000.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>JURFUMCGK</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14167</id>
+	<product_id>790</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Vídeo Portero Citofono + Pantalla Táctil de 7"</product_name>
+	<product_reference>3010</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>84025.210100</product_price>
+	<unit_price_tax_incl>99990.000019</unit_price_tax_incl>
+	<unit_price_tax_excl>84025.210100</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14168</id>
+	<product_id>581</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Cerradura Electrica Porton Batiente 24V</product_name>
+	<product_reference>10092</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>58815.126100</product_price>
+	<unit_price_tax_incl>69990.000059</unit_price_tax_incl>
+	<unit_price_tax_excl>58815.126100</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9200</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/5017">5017</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/5017">5017</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12557">12557</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1694">1694</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/99">99</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/4">4</current_state>
+	<module>webpay</module>
+	<invoice_number>7900</invoice_number>
+	<invoice_date>2020-07-24 17:25:50</invoice_date>
+	<delivery_number>7813</delivery_number>
+	<delivery_date>2020-07-24 18:21:56</delivery_date>
+	<valid>1</valid>
+	<date_add>2020-07-24 17:25:49</date_add>
+	<date_upd>2020-07-24 18:22:11</date_upd>
+	<shipping_number notFilterable="true">933237982</shipping_number>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>b3d8aef5648ae182ac5cf9c14d9ddffb</secure_key>
+	<payment>Webpay Plus</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>101990.000000</total_paid>
+	<total_paid_tax_incl>101990.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>85706.000000</total_paid_tax_excl>
+	<total_paid_real>101990.000000</total_paid_real>
+	<total_products>85706.000000</total_products>
+	<total_products_wt>101990.000000</total_products_wt>
+	<total_shipping>0.000000</total_shipping>
+	<total_shipping_tax_incl>0.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>0.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>ERETPPPSC</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14165</id>
+	<product_id>27</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>2</product_quantity>
+	<product_name>Sensor Magnético Inalámbrico 433Mhz</product_name>
+	<product_reference>3086</product_reference>
+	<product_ean13>000000003086</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>5042.016800</product_price>
+	<unit_price_tax_incl>5999.999992</unit_price_tax_incl>
+	<unit_price_tax_excl>5042.016800</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14166</id>
+	<product_id>535</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Kit Alarma GSM + Sirena Inalambrica 4 Sensores Movimiento  + 2 Magnéticos</product_name>
+	<product_reference>10048</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>75621.848700</product_price>
+	<unit_price_tax_incl>89989.999953</unit_price_tax_incl>
+	<unit_price_tax_excl>75621.848700</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9199</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/5018">5018</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/5018">5018</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12549">12549</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1696">1696</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/99">99</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/16">16</current_state>
+	<module>ps_wirepayment</module>
+	<invoice_number>0</invoice_number>
+	<invoice_date>0000-00-00 00:00:00</invoice_date>
+	<delivery_number>0</delivery_number>
+	<delivery_date>0000-00-00 00:00:00</delivery_date>
+	<valid>0</valid>
+	<date_add>2020-07-24 17:22:52</date_add>
+	<date_upd>2020-07-24 17:26:38</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>3937d1a95532b7559910484a1bdd88ba</secure_key>
+	<payment>Pagos por transferencia bancaria</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>255980.000000</total_paid>
+	<total_paid_tax_incl>255980.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>215109.000000</total_paid_tax_excl>
+	<total_paid_real>0.000000</total_paid_real>
+	<total_products>215109.000000</total_products>
+	<total_products_wt>255980.000000</total_products_wt>
+	<total_shipping>0.000000</total_shipping>
+	<total_shipping_tax_incl>0.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>0.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>QGHQVMPFR</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14162</id>
+	<product_id>105</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Citofono 200 Casas 1000 Usuarios Inalambrico GSM</product_name>
+	<product_reference>4038</product_reference>
+	<product_ean13>000000040389</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>126042.016800</product_price>
+	<unit_price_tax_incl>149989.999992</unit_price_tax_incl>
+	<unit_price_tax_excl>126042.016800</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14163</id>
+	<product_id>215</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Fuente de Poder 12V 3A</product_name>
+	<product_reference>6112</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>5042.016800</product_price>
+	<unit_price_tax_incl>5999.999992</unit_price_tax_incl>
+	<unit_price_tax_excl>5042.016800</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14164</id>
+	<product_id>790</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Vídeo Portero Citofono + Pantalla Táctil de 7"</product_name>
+	<product_reference>3010</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>84025.210100</product_price>
+	<unit_price_tax_incl>99990.000019</unit_price_tax_incl>
+	<unit_price_tax_excl>84025.210100</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9198</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/5017">5017</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/5017">5017</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12555">12555</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1694">1694</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/99">99</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/6">6</current_state>
+	<module>ps_wirepayment</module>
+	<invoice_number>0</invoice_number>
+	<invoice_date>0000-00-00 00:00:00</invoice_date>
+	<delivery_number>0</delivery_number>
+	<delivery_date>0000-00-00 00:00:00</delivery_date>
+	<valid>0</valid>
+	<date_add>2020-07-24 17:16:40</date_add>
+	<date_upd>2020-07-24 17:39:11</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>b3d8aef5648ae182ac5cf9c14d9ddffb</secure_key>
+	<payment>Pagos por transferencia bancaria</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>101990.000000</total_paid>
+	<total_paid_tax_incl>101990.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>85706.000000</total_paid_tax_excl>
+	<total_paid_real>0.000000</total_paid_real>
+	<total_products>85706.000000</total_products>
+	<total_products_wt>101990.000000</total_products_wt>
+	<total_shipping>0.000000</total_shipping>
+	<total_shipping_tax_incl>0.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>0.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>OJXQFQRUO</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14160</id>
+	<product_id>535</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Kit Alarma GSM + Sirena Inalambrica 4 Sensores Movimiento  + 2 Magnéticos</product_name>
+	<product_reference>10048</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>75621.848700</product_price>
+	<unit_price_tax_incl>89989.999953</unit_price_tax_incl>
+	<unit_price_tax_excl>75621.848700</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14161</id>
+	<product_id>27</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>2</product_quantity>
+	<product_name>Sensor Magnético Inalámbrico 433Mhz</product_name>
+	<product_reference>3086</product_reference>
+	<product_ean13>000000003086</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>5042.016800</product_price>
+	<unit_price_tax_incl>5999.999992</unit_price_tax_incl>
+	<unit_price_tax_excl>5042.016800</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9197</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/5016">5016</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/5016">5016</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12556">12556</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1695">1695</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/98">98</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/3">3</current_state>
+	<module>webpay</module>
+	<invoice_number>7899</invoice_number>
+	<invoice_date>2020-07-24 17:10:53</invoice_date>
+	<delivery_number>7811</delivery_number>
+	<delivery_date>2020-07-24 17:10:53</delivery_date>
+	<valid>1</valid>
+	<date_add>2020-07-24 17:10:53</date_add>
+	<date_upd>2020-07-24 17:10:53</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>d3410ec2d8b372445336cb9757ceb6a0</secure_key>
+	<payment>Webpay Plus</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>42880.000000</total_paid>
+	<total_paid_tax_incl>42880.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>37454.000000</total_paid_tax_excl>
+	<total_paid_real>42880.000000</total_paid_real>
+	<total_products>28554.000000</total_products>
+	<total_products_wt>33980.000000</total_products_wt>
+	<total_shipping>8900.000000</total_shipping>
+	<total_shipping_tax_incl>8900.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>8900.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>EMKCGGTBW</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14158</id>
+	<product_id>712</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Radio Walkie Talkie Baofeng Uv-5r 520mhz Uhf Vhf Auricular 8W</product_name>
+	<product_reference>2062</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>26882.352900</product_price>
+	<unit_price_tax_incl>31989.999951</unit_price_tax_incl>
+	<unit_price_tax_excl>26882.352900</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14159</id>
+	<product_id>744</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Antena SMA hembra de 4,5 CM para Baofeng</product_name>
+	<product_reference>2092</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>1672.268900</product_price>
+	<unit_price_tax_incl>1989.999991</unit_price_tax_incl>
+	<unit_price_tax_excl>1672.268900</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9196</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/6">6</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/6">6</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12554">12554</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/4">4</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/98">98</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/5">5</current_state>
+	<module>hspointofsalepro</module>
+	<invoice_number>7898</invoice_number>
+	<invoice_date>2020-07-24 16:47:51</invoice_date>
+	<delivery_number>7810</delivery_number>
+	<delivery_date>2020-07-24 16:47:51</delivery_date>
+	<valid>1</valid>
+	<date_add>2020-07-24 16:47:51</date_add>
+	<date_upd>2020-07-24 16:47:51</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>87a8a8b4f170ca428318ac1acae76540</secure_key>
+	<payment>Transferencia</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>111970.000000</total_discounts>
+	<total_discounts_tax_incl>111970.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>98084.000000</total_discounts_tax_excl>
+	<total_paid>333000.000000</total_paid>
+	<total_paid_tax_incl>333000.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>279832.000000</total_paid_tax_excl>
+	<total_paid_real>333000.000000</total_paid_real>
+	<total_products>352916.000000</total_products>
+	<total_products_wt>419970.000000</total_products_wt>
+	<total_shipping>25000.000000</total_shipping>
+	<total_shipping_tax_incl>25000.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>25000.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>0</round_mode>
+	<round_type>0</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>OUKAQDCBV</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14156</id>
+	<product_id>605</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>2</product_quantity>
+	<product_name>Porton Automatico 1300KG Final de Carrera Mecanico</product_name>
+	<product_reference>2008</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>159655.462200</product_price>
+	<unit_price_tax_incl>189990.000018</unit_price_tax_incl>
+	<unit_price_tax_excl>159655.462200</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14157</id>
+	<product_id>30</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Abre Puerta Con Celular GSM RTU 5024</product_name>
+	<product_reference>3089</product_reference>
+	<product_ean13>000000030892</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>33605.042017</product_price>
+	<unit_price_tax_incl>39990.000000</unit_price_tax_incl>
+	<unit_price_tax_excl>33605.042017</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9195</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/5011">5011</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/5011">5011</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12553">12553</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1692">1692</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/98">98</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/18">18</current_state>
+	<module>webpay</module>
+	<invoice_number>7897</invoice_number>
+	<invoice_date>2020-07-24 16:04:32</invoice_date>
+	<delivery_number>7806</delivery_number>
+	<delivery_date>2020-07-24 16:04:32</delivery_date>
+	<valid>0</valid>
+	<date_add>2020-07-24 16:04:32</date_add>
+	<date_upd>2020-07-24 17:27:53</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>ace8f81590af9168af6997fadd838234</secure_key>
+	<payment>Webpay Plus</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>329944.000000</total_paid>
+	<total_paid_tax_incl>329944.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>279499.000000</total_paid_tax_excl>
+	<total_paid_real>329944.000000</total_paid_real>
+	<total_products>265499.000000</total_products>
+	<total_products_wt>315944.000000</total_products_wt>
+	<total_shipping>14000.000000</total_shipping>
+	<total_shipping_tax_incl>14000.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>14000.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>SFKYWLUYN</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14153</id>
+	<product_id>252</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>4</product_quantity>
+	<product_name>Impresora Térmica Usb Rollo 80mm Corta Automáticamente</product_name>
+	<product_reference>6142</product_reference>
+	<product_ean13>000000061421</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>50411.764706</product_price>
+	<unit_price_tax_incl>53991.000000</unit_price_tax_incl>
+	<unit_price_tax_excl>45370.588235</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14154</id>
+	<product_id>1069</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Alarma Gsm Inalambrica Casa Negocio 9 Sensores Aviso Cel</product_name>
+	<product_reference>20015</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>61336.134454</product_price>
+	<unit_price_tax_incl>72990.000000</unit_price_tax_incl>
+	<unit_price_tax_excl>61336.134454</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14155</id>
+	<product_id>710</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Gaveta Cajon Dinero Electronica 5 Billetes 2 Monedas / Impotec</product_name>
+	<product_reference>2060</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>22680.672300</product_price>
+	<unit_price_tax_incl>26990.000037</unit_price_tax_incl>
+	<unit_price_tax_excl>22680.672300</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9194</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/5011">5011</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/5011">5011</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12551">12551</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1692">1692</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/98">98</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/8">8</current_state>
+	<module>webpay</module>
+	<invoice_number>0</invoice_number>
+	<invoice_date>0000-00-00 00:00:00</invoice_date>
+	<delivery_number>0</delivery_number>
+	<delivery_date>0000-00-00 00:00:00</delivery_date>
+	<valid>0</valid>
+	<date_add>2020-07-24 15:54:31</date_add>
+	<date_upd>2020-07-24 15:54:31</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>ace8f81590af9168af6997fadd838234</secure_key>
+	<payment>Webpay Plus</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>401935.000000</total_paid>
+	<total_paid_tax_incl>401935.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>341752.000000</total_paid_tax_excl>
+	<total_paid_real>0.000000</total_paid_real>
+	<total_products>316752.000000</total_products>
+	<total_products_wt>376935.000000</total_products_wt>
+	<total_shipping>25000.000000</total_shipping>
+	<total_shipping_tax_incl>25000.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>25000.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>OWFWACXQB</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14150</id>
+	<product_id>252</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>5</product_quantity>
+	<product_name>Impresora Térmica Usb Rollo 80mm Corta Automáticamente</product_name>
+	<product_reference>6142</product_reference>
+	<product_ean13>000000061421</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>50411.764706</product_price>
+	<unit_price_tax_incl>53991.000000</unit_price_tax_incl>
+	<unit_price_tax_excl>45370.588235</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14151</id>
+	<product_id>710</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Gaveta Cajon Dinero Electronica 5 Billetes 2 Monedas / Impotec</product_name>
+	<product_reference>2060</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>22680.672300</product_price>
+	<unit_price_tax_incl>26990.000037</unit_price_tax_incl>
+	<unit_price_tax_excl>22680.672300</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14152</id>
+	<product_id>84</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Alarma Casa Negocio Inalambrico Gsm 5 Magneticos 6 S. Movimiento 4 Controles Remoto</product_name>
+	<product_reference>4020</product_reference>
+	<product_ean13>000000004020</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>67218.487400</product_price>
+	<unit_price_tax_incl>79990.000006</unit_price_tax_incl>
+	<unit_price_tax_excl>67218.487400</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9193</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/4136">4136</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/4137">4137</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12550">12550</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1455">1455</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/99">99</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/10">10</current_state>
+	<module>ps_wirepayment</module>
+	<invoice_number>0</invoice_number>
+	<invoice_date>0000-00-00 00:00:00</invoice_date>
+	<delivery_number>0</delivery_number>
+	<delivery_date>0000-00-00 00:00:00</delivery_date>
+	<valid>0</valid>
+	<date_add>2020-07-24 15:50:02</date_add>
+	<date_upd>2020-07-24 15:50:02</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>4424565cbe92068b1bfeeb08e7bb819b</secure_key>
+	<payment>Pagos por transferencia bancaria</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>72940.000000</total_paid>
+	<total_paid_tax_incl>72940.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>61294.000000</total_paid_tax_excl>
+	<total_paid_real>0.000000</total_paid_real>
+	<total_products>61294.000000</total_products>
+	<total_products_wt>72940.000000</total_products_wt>
+	<total_shipping>0.000000</total_shipping>
+	<total_shipping_tax_incl>0.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>0.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>SQAYRUWLF</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14147</id>
+	<product_id>857</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>2</product_quantity>
+	<product_name>Alarma Comunitaria, 2 Controles Remotos</product_name>
+	<product_reference>3065</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>22680.672269</product_price>
+	<unit_price_tax_incl>26990.000000</unit_price_tax_incl>
+	<unit_price_tax_excl>22680.672269</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14148</id>
+	<product_id>856</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>3</product_quantity>
+	<product_name>Control Remoto Para Alarma Comunitaria</product_name>
+	<product_reference>3064</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>2512.605000</product_price>
+	<unit_price_tax_incl>2989.999950</unit_price_tax_incl>
+	<unit_price_tax_excl>2512.605000</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14149</id>
+	<product_id>1152</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Relay Inalambrico 12V  433Mhz</product_name>
+	<product_reference>4229</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>8394.957983</product_price>
+	<unit_price_tax_incl>9990.000000</unit_price_tax_incl>
+	<unit_price_tax_excl>8394.957983</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+<order>
+	<id>9192</id>
+	<id_address_delivery xlink:href="http://impotec.cl/api/addresses/5011">5011</id_address_delivery>
+	<id_address_invoice xlink:href="http://impotec.cl/api/addresses/5012">5012</id_address_invoice>
+	<id_cart xlink:href="http://impotec.cl/api/carts/12548">12548</id_cart>
+	<id_currency xlink:href="http://impotec.cl/api/currencies/1">1</id_currency>
+	<id_lang xlink:href="http://impotec.cl/api/languages/1">1</id_lang>
+	<id_customer xlink:href="http://impotec.cl/api/customers/1692">1692</id_customer>
+	<id_carrier xlink:href="http://impotec.cl/api/carriers/98">98</id_carrier>
+	<current_state xlink:href="http://impotec.cl/api/order_states/6">6</current_state>
+	<module>ps_wirepayment</module>
+	<invoice_number>0</invoice_number>
+	<invoice_date>0000-00-00 00:00:00</invoice_date>
+	<delivery_number>0</delivery_number>
+	<delivery_date>0000-00-00 00:00:00</delivery_date>
+	<valid>0</valid>
+	<date_add>2020-07-24 15:39:13</date_add>
+	<date_upd>2020-07-24 16:58:36</date_upd>
+	<shipping_number notFilterable="true"/>
+	<id_shop_group>1</id_shop_group>
+	<id_shop>1</id_shop>
+	<secure_key>ace8f81590af9168af6997fadd838234</secure_key>
+	<payment>Pagos por transferencia bancaria</payment>
+	<recyclable>0</recyclable>
+	<gift>0</gift>
+	<gift_message/>
+	<mobile_theme>0</mobile_theme>
+	<total_discounts>0.000000</total_discounts>
+	<total_discounts_tax_incl>0.000000</total_discounts_tax_incl>
+	<total_discounts_tax_excl>0.000000</total_discounts_tax_excl>
+	<total_paid>347944.000000</total_paid>
+	<total_paid_tax_incl>347944.000000</total_paid_tax_incl>
+	<total_paid_tax_excl>296381.000000</total_paid_tax_excl>
+	<total_paid_real>0.000000</total_paid_real>
+	<total_products>271381.000000</total_products>
+	<total_products_wt>322944.000000</total_products_wt>
+	<total_shipping>25000.000000</total_shipping>
+	<total_shipping_tax_incl>25000.000000</total_shipping_tax_incl>
+	<total_shipping_tax_excl>25000.000000</total_shipping_tax_excl>
+	<carrier_tax_rate>0.000</carrier_tax_rate>
+	<total_wrapping>0.000000</total_wrapping>
+	<total_wrapping_tax_incl>0.000000</total_wrapping_tax_incl>
+	<total_wrapping_tax_excl>0.000000</total_wrapping_tax_excl>
+	<round_mode>2</round_mode>
+	<round_type>2</round_type>
+	<conversion_rate>1.000000</conversion_rate>
+	<reference>VUQYFTEHF</reference>
+<associations>
+<order_rows nodeType="order_row" virtualEntity="true">
+	<order_row>
+	<id>14144</id>
+	<product_id>252</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>4</product_quantity>
+	<product_name>Impresora Térmica Usb Rollo 80mm Corta Automáticamente</product_name>
+	<product_reference>6142</product_reference>
+	<product_ean13>000000061421</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>50411.764706</product_price>
+	<unit_price_tax_incl>53991.000000</unit_price_tax_incl>
+	<unit_price_tax_excl>45370.588235</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14145</id>
+	<product_id>710</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Gaveta Cajon Dinero Electronica 5 Billetes 2 Monedas / Impotec</product_name>
+	<product_reference>2060</product_reference>
+	<product_ean13/>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>22680.672300</product_price>
+	<unit_price_tax_incl>26990.000037</unit_price_tax_incl>
+	<unit_price_tax_excl>22680.672300</unit_price_tax_excl>
+	</order_row>
+	<order_row>
+	<id>14146</id>
+	<product_id>84</product_id>
+	<product_attribute_id>0</product_attribute_id>
+	<product_quantity>1</product_quantity>
+	<product_name>Alarma Casa Negocio Inalambrico Gsm 5 Magneticos 6 S. Movimiento 4 Controles Remoto</product_name>
+	<product_reference>4020</product_reference>
+	<product_ean13>000000004020</product_ean13>
+	<product_isbn/>
+	<product_upc/>
+	<product_price>67218.487400</product_price>
+	<unit_price_tax_incl>79990.000006</unit_price_tax_incl>
+	<unit_price_tax_excl>67218.487400</unit_price_tax_excl>
+	</order_row>
+</order_rows>
+</associations>
+</order>
+</orders>
+</prestashop>

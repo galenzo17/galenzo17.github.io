@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+        <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.js"></script>
+    
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid my-5 text-center">
+        
+        <div class="mt-5">
+            <table class="table table-dark table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>fecha</th>
+                        <th>reference</th>
+                        <th>monto</th>
+                        <th>metodo pago</th>
+                        
+                        <th>estado</th>
+
+                        <th style="text-align:left;">sku</th>
+                        <th style="text-align:left;">descripcion</th>
+                        
+                      <!--  <th>comuna</th>-->
+                    </tr>
+                </thead>
+                <tbody id="contenido">
+                    
+                </tbody>
+            </table>
+            <!--
+<table class="table">
+                <thead>
+                    <tr>
+                        
+                        <th>sku(s)</th>
+                        <th>descripcion</th>
+                        
+                       <th>comuna</th>
+                    </tr>
+                </thead>
+                <tbody id="prod">
+                    
+                </tbody>
+            </table>
+
+            -->
+            
+        </div>
+    </div>
+
+    <script>
+        var contenido = document.querySelector('#contenido')
+        var prod = document.querySelector('#prod')
+        window.onload = function() {
+  //init();
+  traer();
+};
+        function traer() {
+            fetch('leerordenes.php')
+                .then(res => res.json())
+                .then(datos => {
+                     //console.log(datos)
+                     if (datos === String) {
+                        // console.log('123456')
+                    }else{
+                        // console.log('json')
+                    }
+                  //  recursiveScan(datos)
+                    tabla(datos)
+                })
+        }
+
+        function tabla(datos) {
+            // console.log(datos)
+            contenido.innerHTML = ''
+            var contenedor= contenido
+            /*data.shareInfo[i]).length
+            for(let valor of Object.keys(datos)){
+
+                // console.log(valor.nombre)///for(let valor of Object.keys(datos)){
+                contenido.innerHTML += `
+                
+                <tr>
+                    <th scope="row">${datos.orders[ind].module}</th>
+                    <td>${datos.orders[ind].id}</td>
+                    <td>${ datos.orders[ind].reference }</td>
+                    <td>${ datos.orders[ind].payment}</td>
+                </tr>
+                
+                `
+                
+                var size = Object.keys(datos.orders).length
+                console.log(size+'chumare')
+            }
+            */
+            for(let i=0;i<Object.keys(datos.orders.order).length;i++){
+                let estado=datos.orders.order[i].current_state
+                 /*
+20	1	RECONTACTAR	
+19	1	PENDIENTE	
+18	1	PREPARADO POR	
+17	1	LISTO PARA DESPACHO	payment
+16	1	PARA REVISION TRANSFERENCIA	
+15	1	LISTO PARA RETIRO EN TIENDA	
+14	1	Partial payment	payment
+13	1	En espera de validaciÃ³n por contra reembolso.	cashondelivery
+12	1	Pedido pendiente por falta de stock (no pagado)	outofstock
+11	1	Pago remoto aceptado	payment
+10	1	En espera de pago por transferencia bancaria	
+9	1	Pedido pendiente por falta de stock (pagado)	outofstock
+8	1	Error en pago	payment_error
+7	1	Reembolsado	refund
+6	1	Cancelado	order_canceled
+5	1	Entregado	
+4	1	Enviado	shipped
+3	1	PreparaciÃ³n en curso	
+2	1	Pago aceptado	payment
+1	1	En espera de pago por cheque	cheque
+*/
+
+                if(estado==20){
+                    estado='RECONTACTAR'
+                }
+                if(estado==19){
+                    estado='PENDIENTE'
+                }
+                if(estado==18){
+                    estado='PREPARADO POR'
+                }
+                if(estado==17){
+                    estado='LISTO PARA DESPACHO'
+                }
+                if(estado==16){
+                    estado='PARA REVISION TRANSFERENCIA'
+                }
+                if(estado==15){
+                    estado='LISTO PARA RETIRO EN TIENDA	'
+                }
+                if(estado==14){
+                    estado='Partial payment	payment'
+                }
+                if(estado==13){
+                    estado='En espera de validacion por contra reembolso'
+                }
+                if(estado==12){
+                    estado='Pedido pendiente por falta de stock (no pagado)'
+                }
+                if(estado==11){
+                    estado='Pago remoto aceptado'
+                }
+                if(estado==10){
+                    estado='En espera de pago por transferencia bancaria'//para venta auto
+                }
+                if(estado==9){
+                    estado='Pedido pendiente por falta de stock (pagado)'
+                }
+                if(estado==8){
+                    estado='Error en pago'
+                }
+                if(estado==7){
+                    estado='Reembolsado'
+                }
+                if(estado==6){
+                    estado='Cancelado'
+                }
+                if(estado==5){
+                    estado='Entregado'
+                }
+                if(estado==4){
+                    estado='Enviado'
+                }
+                if(estado==3){
+                    estado='Preparacion en curso'
+                }
+                if(estado==2){
+                    estado='Pago aceptado'
+                }
+                if(estado==1){
+                    estado='En espera de pago por cheque'
+                }
+                
+                
+                
+                
+
+
+
+
+                let sku=[]
+                let descripcion=[]
+                if(Object.keys(datos.orders.order[i].associations.order_rows.order_row).length==12){
+                    // console.log('1 producto')
+                    sku= datos.orders.order[i].associations.order_rows.order_row.product_reference
+                    descripcion =datos.orders.order[i].associations.order_rows.order_row.product_name
+                }else{
+                    // console.log('mas de 1')
+                    for(let x=0;x<Object.keys(datos.orders.order[i].associations.order_rows.order_row).length;x++){
+                        sku += datos.orders.order[i].associations.order_rows.order_row[x].product_reference + '<br>'
+                        descripcion += datos.orders.order[i].associations.order_rows.order_row[x].product_name + '<br>'
+                    }
+                    
+                }
+                let money=formatMoney(Number.parseInt( datos.orders.order[i].total_paid))
+
+                let cliente=datos.orders.order[i].payment
+                //let comuna=getcomuna()
+                
+
+                let fecha = datos.orders.order[i].date_add
+                let dateFormat= new Date(fecha).toLocaleDateString('en-GB', {
+                month: '2-digit',day: '2-digit',year: 'numeric'})
+                // console.log(dateFormat)
+                
+
+                if(estado=='En espera de pago por transferencia bancaria'){
+                    contenido.innerHTML += `
+                <tr>
+                    <th scope="row">${dateFormat}</th>
+                    <td>${datos.orders.order[i].reference}</td>
+                    <td>$ ${money}</td>
+                    <td>${ cliente}</td>
+                    <td>${estado}</td>
+                    <td style="text-align:left;"><a href="http://impotec.cl/busqueda?controller=search&s=${sku}">${sku}</a></td>
+                    <td style="text-align:left;">${descripcion}</td>
+                </tr>`
+
+
+                var url = 'subirordenes.php';
+                var data = {username: 'example'};
+                console.log(JSON.stringify(datos.orders.order[i].reference))
+                let numref=JSON.stringify(datos.orders.order[i].reference)
+                // fetch(url, {
+                // method: 'POST', // or 'PUT'
+                // body: {referencia: JSON.stringify(datos.orders.order[i].reference)}, 
+                // body: {
+                //     referencia: JSON.stringify(datos.orders.order[i].reference), 
+                //     // total: money,
+                //     // sku:JSON.stringify(sku),
+                //     // descripcion:JSON.stringify(descripcion)
+                // }, // data can be `string` or {object}!
+                
+                // }).then(res => res)
+                // .catch(error => console.error('Error:', error))
+                // .then(response => console.log('Success:', response.referencia));
+
+                $.ajax({
+                type: "POST",
+                url: url,
+         
+                data:   {
+                    referencia: datos.orders.order[i].reference, 
+                    total: money,
+                    sku:sku,
+                    descripcion:descripcion
+               
+                } ,
+                success: function(response){
+                    console.log(response)
+                    
+                    },
+                    
+                })
+                .done(function( msg ) {
+                    
+                    
+                });
+
+                }
+                
+                 
+
+                /*
+                contenido.insertAdjacentText('beforeEnd', '<tr>');
+                    
+                        contenido.insertAdjacentHTML('beforeEnd ', '<td >'+datos.orders.order[i].date_add+'</td>');
+                            contenido.insertAdjacentHTML('beforeEnd ', '<td >'+datos.orders.order[i].date_add+'</td>');
+                                contenido.insertAdjacentHTML('beforeEnd ', '<td >'+datos.orders.order[i].date_add+'</td>');
+                                    contenido.insertAdjacentHTML('beforeEnd ', '<td >'+datos.orders.order[i].date_add+'</td>');
+
+                            contenido.insertAdjacentHTML('beforeEnd ', '</tr>');
+                
+                contenido.innerHTML += '<tr><th scope="row">'+datos.orders.order[i].date_add+'</th>'+
+                    '<th scope="row">'+datos.orders.order[i].reference+'</th>'
+                    //contenido.innerHTML = contenido.innerHTML+'<tr><th scope="row">'+datos.orders.order[i].reference+'</th>'
+               
+                */
+                if(datos.orders.order[i].current_state==5){
+                   // contenido.innerHTML = contenido.innerHTML+'<th>Entregado</th></tr>'
+                }
+               /*
+                if(Object.keys(datos.orders.order[i].associations.order_rows.order_row).length==12){
+                    console.log('1 producto')
+                    contenido.innerHTML =contenido.innerHTML + `
+                    <td style="background-color:#9eeaff;color:#000000;"><strong>Sku </strong><br>${datos.orders.order[i].associations.order_rows.order_row.product_reference}</td>
+                    <td style="background-color:#9eeaff;color:#000000;"><strong>Descripcion </strong><br>${ datos.orders.order[i].associations.order_rows.order_row.product_name }</td>
+                </tr>`
+                }else{
+                    console.log('mas de 1')
+                    for(let x=0;x<Object.keys(datos.orders.order[i].associations.order_rows.order_row).length;x++){
+                        contenido.innerHTML = contenido.innerHTML+`
+                        
+                            <td style="background-color:#ffd78c;color:#000000;"><strong>Sku </strong><br> ${datos.orders.order[i].associations.order_rows.order_row[x].product_reference}</td>
+                            <td style="background-color:#ffd78c;color:#000000;"><strong>Descripcion </strong><br>${ datos.orders.order[i].associations.order_rows.order_row[x].product_name }</td>
+                        </tr>`
+                    }
+                    
+                }
+                */
+               // console.log(Object.keys(datos.orders.order[i].associations.order_rows.order_row).length)
+               /*
+                if(Object.keys(datos.orders.order[i].associations.order_rows.order_row.order_row).length>12){
+
+                }else{
+                    
+                }
+                */
+                
+            }
+            /*
+            for(let i=0;i<Object.keys(datos.orders.order).length;i++){
+                if(Object.keys(datos.orders.order[i].associations.order_rows.order_row).length==12){
+                    console.log('1 producto')
+                    prod.innerHTML += `
+                <tr>
+                    <td>${datos.orders.order[i].associations.order_rows.order_row.product_reference}</td>
+                    <td>${ datos.orders.order[i].associations.order_rows.order_row.product_name }</td>
+                </tr>`
+                }else{
+                    console.log('mas de 1')
+                    for(let x=0;x<Object.keys(datos.orders.order[i].associations.order_rows.order_row).length;x++){
+                        prod.innerHTML += `
+                        <tr>
+                            <td>${datos.orders.order[i].associations.order_rows.order_row[x].product_reference}</td>
+                            <td>${ datos.orders.order[i].associations.order_rows.order_row[x].product_name }</td>
+                        </tr>`
+                    }
+                }
+                */
+
+                //console.log(Object.keys(datos.orders.order[i].associations.order_rows.order_row).length)
+               /*
+                if(Object.keys(datos.orders.order[i].associations.order_rows.order_row.order_row).length>12){
+
+                }else{
+                    
+                }
+                */
+                
+            //}
+            
+        }
+
+
+function formatearfecha(fecha,prefix = ""){
+    //var fecha = new Date(1995, 11, 17);
+    var nuevafecha = Date.parse(fecha); // returns NaN if it can't parse
+    return Number.isNaN(nuevafecha) ? "" : prefix + nuevafecha.toLocaleDateString();
+    //var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+
+    
+
+    
+    //return fecha.toLocaleDateString("es-ES", options);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function formatMoney(amount, decimalCount = 2, decimal = ".", thousands = ".") {
+  try {
+    decimalCount = Math.abs(decimalCount);
+    decimalCount = isNaN(decimalCount) ? 2 : decimalCount;
+
+    const negativeSign = amount < 0 ? "-" : "";
+
+    let i = parseInt(amount = Math.abs(Number(amount) || 0).toFixed(decimalCount)).toString();
+    let j = (i.length > 3) ? i.length % 3 : 0;
+
+    return negativeSign + (j ? i.substr(0, j) + thousands : '') + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands) ;
+  } catch (e) {
+    console.log(e)
+  }
+}
+
+
+
+
+
+        function recursiveScan(json)
+    {
+        if(json.orders.order != null && json.id != null)
+        {
+            //here you have access to id and dataelements
+
+            if(json.children.length > 0)
+            {
+                for(let t=0; t<json.children.length; t++)
+                {
+                    //here you have access to each child as json.children[t]
+                    //you could do the logic for the current child
+                    console.log('hijo');
+                    //then pass the current child to the recursive function
+                    recursiveScan(json.children[t]);
+                }
+            }else{
+                console.log('no po');
+            }
+        }else{
+                console.log('no po y no es no');
+            }
+        return true;
+    }
+
+    </script>
+
+
+</body>
+
+</html>

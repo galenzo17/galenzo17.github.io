@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container my-5 text-center">
+        <button class="btn btn-danger w-100" onclick="traer()">Obtener</button>
+        <div class="mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Referencia</th>
+                        <th scope="col">Monto</th>
+                        <th scope="col">sku</th>
+                        <th scope="col">Estado</th>
+                    </tr>
+                </thead>
+                <tbody id="contenido">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        var contenido = document.querySelector('#contenido')
+
+        function traer() {
+            fetch('leerordenes.php')
+                .then(res => res.json())
+                .then(datos => {
+                   // var jsonData = JSON.parse(datos)
+                     let respuesta=datos
+                     tabla(datos)
+                    // console.log(jsonData)
+                })
+        }
+        async function fetchData() {
+
+        const response = await fetch('leerordenes.php');
+        const data = await response.json();
+
+        data.forEach(obj => {
+            Object.entries(obj).forEach(([key, value]) => {
+                console.log(`${key} ${value}`);
+            });
+            console.log('-------------------');
+        });
+        }
+        function iterateNodes(data) {
+            for (var i = 0, l = data.nodes.length; i < l; i++) {
+                var node = data.nodes[i];
+
+                console.log(node.name);
+
+                if (node.nodes) {
+                    arguments.callee(node);
+                }
+            }
+        }
+        function tabla(datos) {
+            // console.log(datos)
+            contenido.innerHTML = ''
+           // datos.json=arr
+            for( let valor in datos ){
+                    console.log( datos[valor] );
+                    for( let clave in datos ){
+                        //console.log( datos[valor] );
+                    }
+                }
+            for(let valor of Object.keys(datos)){
+                // console.log(valor)
+                 
+                 for(let valor2 of Object.keys(valor)){
+                   // console.log(valor2)
+                 }
+                 /*
+                contenido.innerHTML += `
+                
+                <tr>
+                    <th scope="row">${ valor.id }</th>
+                    
+                </tr>
+                
+                `
+                */
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>

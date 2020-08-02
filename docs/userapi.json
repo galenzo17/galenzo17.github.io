@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Elias",
+                "last": "Lassila"
+            },
+            "location": {
+                "street": {
+                    "number": 928,
+                    "name": "Nordenskiöldinkatu"
+                },
+                "city": "Eurajoki",
+                "state": "Päijät-Häme",
+                "country": "Finland",
+                "postcode": 31054,
+                "coordinates": {
+                    "latitude": "-9.2828",
+                    "longitude": "-176.4364"
+                },
+                "timezone": {
+                    "offset": "+9:30",
+                    "description": "Adelaide, Darwin"
+                }
+            },
+            "email": "elias.lassila@example.com",
+            "login": {
+                "uuid": "47e170a3-7b08-4280-8278-889d2a0f5acf",
+                "username": "lazyleopard587",
+                "password": "bomb",
+                "salt": "CQbIjGaI",
+                "md5": "eabadfa63cd9ca5bcc3fc3e41b3f18a4",
+                "sha1": "ddc8646407a9e716a7cde9a891f6a5bcb7153f23",
+                "sha256": "b5b410404fd85ec52ecf10e20856616fcb8c293233fd14df18051bec488260cd"
+            },
+            "dob": {
+                "date": "1974-01-25T02:55:43.468Z",
+                "age": 46
+            },
+            "registered": {
+                "date": "2012-09-01T08:52:24.461Z",
+                "age": 8
+            },
+            "phone": "03-609-367",
+            "cell": "049-983-47-57",
+            "id": {
+                "name": "HETU",
+                "value": "NaNNA347undefined"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/87.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/87.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/87.jpg"
+            },
+            "nat": "FI"
+        }
+    ],
+    "info": {
+        "seed": "35ae0b0badae1164",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}

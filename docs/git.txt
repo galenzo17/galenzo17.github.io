@@ -3,4 +3,4 @@ git commit -m "first commit"
 git push -u origin master
 
 
-C:\xampp\htdocs\Otra Ade web\docs\deleven.html
+http://localhost/OtraAdeweb/docs/index.html
